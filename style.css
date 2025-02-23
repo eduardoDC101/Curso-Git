@@ -6,10 +6,35 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(7, 7, 39);
+  text-align: center;
+  padding: 30px;
+  color: white;
 }
 
-h1,
-h2 {
-  color: rgb(12, 12, 61);
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: justify;
+  width: 500px;
+  margin: 30px auto;
+}
+
+ul li {
+  margin-top: 20px;
+  font-size: 20px;
   font-style: italic;
+}
+
+ul li span {
+  color: yellowgreen;
+  font-weight: 400;
 }
