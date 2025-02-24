@@ -1,0 +1,25 @@
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+details:hover {
+  cursor: pointer;
+}
+
+summary {
+  font-weight: 600;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+details[open] {
+  padding: 10px;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin: 10px 0;
+}
